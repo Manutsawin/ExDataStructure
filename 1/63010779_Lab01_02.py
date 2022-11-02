@@ -1,0 +1,7 @@
+input_list = input("Enter your High and Weight : ").split(" ")
+bmi = float(input_list[1])/(float(input_list[0])*float(input_list[0]))
+if bmi >= 30 : print("Fat")
+elif bmi >= 25 :print("Getting Fat")
+elif bmi >= 23 :print("More than Normal Weight")
+elif bmi >= 18.5 : print("Normal Weight")
+else : print("Less Weight")
